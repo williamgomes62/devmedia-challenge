@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+
+.heading {
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  justify-content: space-between;
+}
+
+@media (max-width: 320px) {
+  .heading {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .form-section {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .logo-container {
+    width: 60px;
+  }
+
+  .menu ul li a {
+    padding: 10px;
+  }
+
+  .menu ul li a i {
+    padding: 8px;
+  }
+
+  .offers img {
+    width: 300px;
+    height: 228px;
+  }
+}
+
+.logo-text {
+  font-weight: bold;
+  color: #f44336;
+}
+
+.marker-icon {
+  color: #f44336;
+}
+
+.menu {
+  background-color: #000;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline; 
+}
+
+.menu ul li a {
+  color: #FFF;
+  text-decoration: none;
+  /* transition: background .4s; */
+}
+
+/* .menu ul li:last-child a {
+  float: right;
+} */
+
+.menu ul li a:hover {
+  background-color: #f44336;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-section p {
+  margin: 0;
+}
+
+.form-section button {
+  margin-top: 10px;
+  background-color: gray;
+  border: 0;
+  color: #FFF;
+  padding: 10px;
+}
+
+.form-section input {
+  padding: 10px;
+  width: 92%;
+}
+
+.offers {
+  padding: 50px 10px 0px 10px;
+}
+
+.content-container {
+  background-color: rgb(243, 234, 234);
+}
+
+.offers-img-container {
+}
+
+.offers-img {
+  position: relative;
+  display: inline-block;
+}
+
+.offers-img label {
+  color: #FFF;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+}
