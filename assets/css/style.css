@@ -42,7 +42,11 @@ body {
 
   .offers img {
     width: 300px;
-    height: 228px;
+    /* height: 228px; */
+  }
+
+  .nature-imgs-container img {
+    width: 300px;
   }
 }
 
@@ -104,19 +108,22 @@ body {
 }
 
 .offers {
-  padding: 50px 10px 0px 10px;
+  padding-top: 50px;
 }
 
 .content-container {
   background-color: rgb(243, 234, 234);
+  padding: 0px 10px 0px 10px;
 }
 
 .offers-img-container {
+  background-color: rgb(243, 234, 234);
 }
 
 .offers-img {
   position: relative;
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 .offers-img label {
@@ -125,4 +132,79 @@ body {
   right: 10px;
   bottom: 10px;
   left: 10px;
+}
+
+.explore-nature {
+  padding-top: 50px;
+}
+
+.nature-imgs-container {
+  background-color: #FFF;
+  margin-bottom: 15px;
+}
+
+.nature-imgs-container div {
+  padding: 10px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+#buy-tickets-text {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.newsletter {
+  padding: 10px 10px 0px 10px;
+  background-color: grey;
+  margin-top: 35px;
+}
+
+.newsletter h1, .newsletter p {
+  color: #FFF;
+}
+
+.newsletter form p {
+  margin: 0;
+}
+
+.newsletter button {
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  border: 0;
+  color: #FFF;
+  background-color: rgb(247, 101, 101);
+}
+
+.newsletter input {
+  padding: 10px;
+  width: 92%;
+  /* color: grey; */
+}
+
+.contact i {
+  margin-right: 15px;
+}
+
+.contact form {
+  margin-top: 15px;
+}
+
+.contact input, .contact button {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact button {
+  color: #FFF;
+  background-color: #000;
+  border: 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
