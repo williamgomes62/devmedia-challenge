@@ -6,7 +6,7 @@ body {
 }
 
 .heading {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 10px 0px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,17 +24,13 @@ body {
     padding: 0px 10px 0px 10px;
   }
 
-  .form-section {
-    padding: 0px 10px 0px 10px;
-  }
-
   .logo-container {
     width: 60px;
   }
 
-  .menu ul li a {
-    padding: 10px;
-  }
+  /* .menu ul li a {
+    padding: 2px;
+  } */
 
   .menu ul li a i {
     padding: 8px;
@@ -47,6 +43,21 @@ body {
 
   .nature-imgs-container img {
     width: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu ul li a i {
+    padding: 10px;
+  }
+
+  .offers img {
+    width: 450px;
+    /* height: 228px; */
+  }
+
+  .nature-imgs-container img {
+    width: 450px;
   }
 }
 
@@ -69,7 +80,7 @@ body {
 }
 
 .menu ul li {
-  display: inline; 
+  display: inline;
 }
 
 .menu ul li a {
@@ -88,6 +99,7 @@ body {
 
 .form-section {
   margin-bottom: 30px;
+  padding: 0px 10px 0px 10px;
 }
 
 .form-section p {
